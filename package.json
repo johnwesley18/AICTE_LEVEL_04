@@ -1,0 +1,14 @@
+{
+  "name": "AICTE_LEVEL_04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest"
+},
+  "authour": "JOHN WESLEY",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

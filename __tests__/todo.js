@@ -51,12 +51,12 @@ describe("TodoList Test Suite", () => {
   test("overdue_items", () => {
     let overdue_list = overdue();
     expect(overdue_list.length).toBe(1);
-    expect(overdue_list[0]).toBe(all[1]);
+    expect(overdue_list[0]).toBe(all[0]);
   });
   test("dueToday_items", () => {
     let dueToday_list = dueToday();
     expect(dueToday_list.length).toBe(2);
-    expect(dueToday_list[0]).toBe(all[0]);
+    expect(dueToday_list[0]).toBe(all[1]);
     expect(dueToday_list[1]).toBe(all[3]);
   });
   test("dueLater_items", () => {
